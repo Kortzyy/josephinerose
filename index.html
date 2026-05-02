@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 27th Birthday 🎂</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── FLOATING PETALS ── -->
+  <div class="petals-container" id="petals"></div>
+
+  <!-- ── NAV ── -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">✦ JOSEPHINE ✦</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#messages">Messages</a></li>
+    </ul>
+    <div class="nav-hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════
+       SECTION 1 — HOME
+  ══════════════════════════════════════ -->
+  <section class="home" id="home">
+    <div class="home-bg-shape"></div>
+
+    <div class="home-headline-wrap">
+      <div class="home-photo-frame">
+        <div class="photo-ring"></div>
+        <div class="photo-ring ring2"></div>
+        <img src="images/Solo 1.jpg" alt="Josephine" class="home-photo" />
+      </div>
+    </div>
+
+    <div class="home-text">
+      <p class="home-label">Today we celebrate</p>
+      <h1 class="home-name">Josephine<br/><em>Rose</em></h1>
+      <p class="home-date">May 3, 2026</p>
+      <a href="#about" class="btn-gold">Explore ↓</a>
+    </div>
+
+    <div class="home-ornament left">✦</div>
+    <div class="home-ornament right">✦</div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SECTION 2 — ABOUT
+  ══════════════════════════════════════ -->
+  <section class="about" id="about">
+    <div class="section-tag">— About the Birthday Girl —</div>
+    <h2 class="section-title">A Little Bit<br/><em>About Her</em></h2>
+
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <img src="images/Solo 2.jpg" alt="About photo" class="about-img" />
+      </div>
+
+      <div class="about-content">
+        <p class="about-intro">
+          Here's to the woman who lights up every room she walks into — a soul made of
+          warmth, laughter, and a little bit of magic.
+        </p>
+
+        <div class="about-facts">
+          <div class="fact-card">
+            <div class="fact-icon">🌸</div>
+            <div>
+              <h4>Personality</h4>
+              <p>A ray of sunshine wrapped in kindness — her smile alone makes any day better.</p>
+            </div>
+          </div>
+          <div class="fact-card">
+            <div class="fact-icon">✨</div>
+            <div>
+              <h4>Passions</h4>
+              <p>She lives for the moments that take your breath away, chikaness, marites and great company.</p>
+            </div>
+          </div>
+          <div class="fact-card">
+            <div class="fact-icon">💛</div>
+            <div>
+              <h4>What She Means</h4>
+              <p>To know her is to love her. A true gem, a loyal friend, and an incredible human being.</p>
+            </div>
+          </div>
+        </div>
+
+        <blockquote class="about-quote">
+          "Here's to another year of making memories, and living boldly."
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SECTION 3 — GALLERY (15 photos)
+       Uses CSS columns for true masonry —
+       no dead space, natural photo sizes.
+  ══════════════════════════════════════ -->
+  <section class="gallery" id="gallery">
+    <div class="section-tag">— Captured Moments —</div>
+    <h2 class="section-title">Our Beautiful<br/><em>Gallery</em></h2>
+
+    <div class="masonry-grid" id="galleryGrid">
+
+      <div class="masonry-item" data-index="0">
+        <img src="images/1.jpeg" alt="Memory 1" loading="lazy" />
+        <div class="gallery-overlay"><span>Mcdo first time meetup after graduation 😂</span></div>
+      </div>
+
+      <div class="masonry-item" data-index="1">
+        <img src="images/2.jpeg" alt="Memory 2" loading="lazy" />
+        <div class="gallery-overlay"><span>Mcdo first time meetup after graduation 😂</span></div>
+      </div>
+
+      <div class="masonry-item" data-index="2">
+        <img src="images/3.jpeg" alt="Memory 3" loading="lazy" />
+        <div class="gallery-overlay"><span>Mcdo first time meetup after graduation 😅</span></div>
+      </div>
+
+      <div class="masonry-item" data-index="3">
+        <img src="images/4.jpeg" alt="Memory 4" loading="lazy" />
+        <div class="gallery-overlay"><span>Yien's birthday @jabi 🤣</span></div>
+      </div>
+
+      <div class="masonry-item" data-index="4">
+        <img src="images/5.jpeg" alt="Memory 5" loading="lazy" />
+        <div class="gallery-overlay"><span>Nella's house chika chika lang HAHAHA 🤪</span></div>
+      </div>
+
+      <div class="masonry-item" data-index="5">
+        <img src="images/6.jpeg" alt="Memory 6" loading="lazy" />
+        <div class="gallery-overlay"><span>Tambay @22ban 😋</span></div>
+      </div>
+
+      <div class="masonry-item" data-index="6">
+        <img src="images/7.jpeg" alt="Memory 7" loading="lazy" />
+        <div class="gallery-overlay"><span>Ramen lang 🍜</span></div>
+      </div>
+
+      <div class="masonry-item" data-index="7">
+        <img src="images/8.jpeg" alt="Memory 8" loading="lazy" />
+        <div class="gallery-overlay"><span>Ramen lang 🍜</span></div>
+      </div>
+
+      <div class="masonry-item" data-index="8">
+        <img src="images/9.jpeg" alt="Memory 9" loading="lazy" />
+        <div class="gallery-overlay"><span>Ramen lang 🍜</span></div>
+      </div>
+
+      <div class="masonry-item" data-index="9">
+        <img src="images/10.jpeg" alt="Memory 10" loading="lazy" />
+        <div class="gallery-overlay"><span>Christmas catched up sa MUAHH 💋</span></div>
+      </div>
+
+      <div class="masonry-item" data-index="10">
+        <img src="images/11.jpeg" alt="Memory 11" loading="lazy" />
+        <div class="gallery-overlay"><span>Dinner taym @muahhh 👄</span></div>
+      </div>
+
+      <div class="masonry-item" data-index="11">
+        <img src="images/12.jpeg" alt="Memory 12" loading="lazy" />
+        <div class="gallery-overlay"><span>RIDESSSSSSSSS 🎪</span></div>
+      </div>
+
+      <div class="masonry-item" data-index="12">
+        <img src="images/13.jpeg" alt="Memory 13" loading="lazy" />
+        <div class="gallery-overlay"><span>Nella's beerdayyyy 🥂</span></div>
+      </div>
+
+      <div class="masonry-item" data-index="13">
+        <img src="images/14.jpeg" alt="Memory 14" loading="lazy" />
+        <div class="gallery-overlay"><span>Picture picture w/ celebrant 📸</span></div>
+      </div>
+
+      <div class="masonry-item" data-index="14">
+        <img src="images/15.jpeg" alt="Memory 15" loading="lazy" />
+        <div class="gallery-overlay"><span>Dream's to Reality 🎓✨</span></div>
+      </div>
+
+    </div><!-- /masonry-grid -->
+
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SECTION 4 — MESSAGES
+  ══════════════════════════════════════ -->
+  <section class="messages" id="messages">
+    <div class="section-tag">— With Love —</div>
+    <h2 class="section-title">Birthday<br/><em>Messages</em></h2>
+
+    <div class="messages-grid">
+
+      <!-- ── CARD 1 — Nella ── -->
+      <div class="msg-card msg-card--left">
+        <div class="msg-quote-mark">"</div>
+
+        <p class="msg-text">Dearest Josephine, 
+
+Happiest birthday! 🎊🥳 All the best for my og beshy! Salamat at pinagtagpo tayo ng landas para maging sandalan ang isa't isa (w/ Yien 🫶). Salamat sa mga chika, kasayahan, kalokohan, tampuhan, kabaliwan. Salamat sa mga oras na kinakamusta mo 'ko ng mga panahong magulo ang isip at puso ko, kahit minsan ay nag susungit lang ako. 😂
+
+Ikakasal ka naaa~ iiwan mo na 'ko! HAHAHA ems! I'm so so happy that you found your "Franz charming". Marupok ka pa rin, pero kay Potchi nalang dapat... 🤣 Parang kailan lang high school pa tayo na ang problema ay puro projects and assignments. Now, with every happenings in the world, you're stepping into your new chapter of life called the "married life". I wish you have a strong bond and mind in any problems that will come and hope you both have a healthy relationship moving forward. 😇 I know you'll be the happiest on your big day. Congratulations and best wishes soon-to-be Mrs. Magtoto!! 🥰❣👰‍♀️
+
+PS: Yung pic na pinili namin puro kain natin sa labas. Kasi more food more chika. 🤣
+
+PS 2: This one is our simple gift to you! Surprise! 🫶😆
+
+
+With love, </p>
+
+        <!-- AVATAR — same structure both cards -->
+        <div class="msg-author">
+          <img
+            src="images/Nella.jpeg"
+            alt="Nella"
+            class="msg-avatar"
+            onerror="this.onerror=null;this.src='images/nella.jpeg';"
+          />
+          <div class="msg-author-info">
+            <p class="msg-name">Nella</p>
+            <p class="msg-relation">Friend</p>
+          </div>
+        </div>
+
+        <div class="msg-confetti">🌸 ✨ 💛</div>
+      </div>
+
+      <!-- ── CARD 2 — Yien ── -->
+      <div class="msg-card msg-card--right">
+        <div class="msg-quote-mark">"</div>
+
+        <p class="msg-text">Isa sa aking beshy ay ikakasal na🥹napakasaya ng puso ko na makita kang ikakasal na sa taong mahal mo. Deserve mo ang lahat ng pagmamahal, saya, at pagpapalang dala ng bagong yugto ng buhay ninyo. Bilang isa sa best friend mo, sobrang saya ko na masaksihan ang napakagandang araw na ito para sayo. Parang dati lang puro rant lng sa kanya kanyang problema or love life tas ngayun eto na ibang buhay na talaga tatahakin natin haha puro kalokohan lng dati pero ngayun seryuso na talaga at may kasabihan nga na ang pag-aasawa raw ay hindi tulad ng kaning mainit na kapag isinubo mo at ikaw ay napaso ay agad na iluluwa. Sana matagpuan ninyo sa isa’t isa ang tunay na kahulugan ng pagiging asawa sa bawat isa. Lagi ninyong tandaan na dapat laging may tiwala, respeto, at pang-unawa sa inyong pagsasama.Wala nang mas mahihigit pa sa pag-ibig na taglay ng dalawang pusong nagdesisyong maging isa sa pamamagitan ng pagpapakasal. Sana manatili ang init ng inyong pagmamahalan sa isa’t isa. Pag-ibig ang nagbuklod sa inyo at ito ay pinagtibay at binasbasan ng Diyos. Sana bigyan nya kayo ng buhay na masaya at puno ng biyaya. Hindi palaging masaya ang buhay may asawa. May mga pagkakataong kailangan ninyong dumanas ng mga pagsubok. Dalangin ko na ang pagsasama ninyo ay mapuno ng pagmamahalan, pag-unawa, tawanan, at walang hanggang suporta sa isa’t isa. Nawa’y manatili kayong matatag sa bawat pagsubok at mas lalo pang tumibay ang pagmamahalan ninyo habang tumatagal. Advance Congratulations sa inyong kasal and Happy birthday beshy! Nandito lang ako palagi para suportahan ka at hangad ko ang masaya at pinagpalang pagsasama ninyong dalawa. I love you always beshy phine! Happy birthday and Congratulations again!💞</p>
+
+        <!-- AVATAR — same structure both cards -->
+        <div class="msg-author">
+          <img
+            src="images/Yien.jpeg"
+            alt="Yien"
+            class="msg-avatar"
+            onerror="this.onerror=null;this.src='images/yien.jpeg';"
+          />
+          <div class="msg-author-info">
+            <p class="msg-name">Yien</p>
+            <p class="msg-relation">Friend</p>
+          </div>
+        </div>
+
+        <div class="msg-confetti">🎂 💕 🌷</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-deco">✦ ✦ ✦</div>
+    <p class="footer-script">Happy Birthday</p>
+    <h3 class="footer-name">Josephine</h3>
+    <div class="footer-divider"></div>
+    <p class="footer-copy">
+      Made with <span class="heart">♥</span> for a very special day · May 3, 2026
+    </p>
+  </footer>
+
+  <!-- ── LIGHTBOX — lives at body level, outside all sections/stacking contexts ── -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <div class="lightbox-backdrop" id="lbBackdrop"></div>
+    <button class="lb-btn lb-close" id="lbClose" aria-label="Close">✕</button>
+    <button class="lb-btn lb-prev"  id="lbPrev"  aria-label="Previous">‹</button>
+    <button class="lb-btn lb-next"  id="lbNext"  aria-label="Next">›</button>
+    <div class="lb-content">
+      <img src="" alt="" id="lbImg" />
+      <p class="lb-caption" id="lbCaption"></p>
+    </div>
+    <div class="lb-counter" id="lbCounter"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
